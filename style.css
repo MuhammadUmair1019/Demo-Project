@@ -1,0 +1,42 @@
+p:nth-last-of-type(1) {
+    color: green;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    border: 1px solid aqua;
+    background: cadetblue;
+}
+
+a:active {
+    color: coral;
+}
+
+
+/* 
+body:hover {
+    background: grey;
+}
+
+
+/* 
+p {
+    color: green;
+} */
+
+
+/* p::first-letter {
+    font-size: 32px;
+} */
+
+p::selection {
+    background: greenyellow;
+    color: white;
+}
